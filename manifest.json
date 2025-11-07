@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Arrow Key Navigation",
+  "version": "1.0",
+  "description": "Navigate Twitter timelines with arrow keys.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

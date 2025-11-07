@@ -1,0 +1,7 @@
+.selected-tweet {
+  position: sticky;
+  top: 0;
+  background-color: white; /* 必要に応じて背景色を設定 */
+  z-index: 1000; /* 他の要素よりも前面に表示 */
+  border: 2px solid blue; /* 選択状態をわかりやすく表示 */
+}
